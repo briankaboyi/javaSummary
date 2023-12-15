@@ -59,11 +59,11 @@ class Main {
 
     //for each
     int[] numArr = new int[num];
-    for (int i = 0 ; i < num; i++) {
-      numArr[i] = i+1;
+    for (int i = 0; i < num; i++) {
+      numArr[i] = i + 1;
     }
-for (int i:numArr){
-    System.out.println(i);
-}
+    for (int i : numArr) {
+      System.out.println(i);
+    }
   }
 }
