@@ -75,5 +75,13 @@ class Createfile {
     }else{
         System.out.println("the file does not exist");
     }
+    /// Deleting a file
+    File deleteFile = new File("/home/briankaboyi/Code/java/.\\testfolder\\otherfile.md");
+    if(deleteFile.exists()){
+        deleteFile.delete();
+        System.out.println("Mision compolete");
+    }else{
+        System.out.println("failed mission");
+    }
   }
 }
