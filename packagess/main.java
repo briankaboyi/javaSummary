@@ -14,6 +14,7 @@ class MyPackage {
     // Enter username and press Enter
     System.out.println("Enter username");
     userName = myScanner.nextLine();
+    myScanner.close();
 
     System.out.println("Username is: " + userName);
   }

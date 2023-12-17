@@ -17,6 +17,11 @@ class Variables{
         System.out.println(word);
         //word = "world"; //throws an error because the final keyword was used on declaration of the variable word
         System.out.println(word);
+        System.out.println(letter);
+        System.out.println(point);
+        System.out.println(dees);
+        System.out.println(isIt);
+        System.out.println(num);
 
     }
 }

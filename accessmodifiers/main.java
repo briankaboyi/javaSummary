@@ -1,6 +1,6 @@
 package accessmodifiers;
 
-public class main {
+class Main {
 
   // Access modifiers set the access level for classes, attributes, methods and constructors.
 
@@ -54,7 +54,7 @@ volatile -  	The value of an attribute is not cached thread-locally, and is alwa
   
 // MAIN method
   public static void main(String[] args) {
-    mainone myObj = new mainone();
+    Mainone myObj = new Mainone();
     //myObj.x=50; //throws an error
     //myObj.PI = 25;//throws an error
     System.out.println(myObj.x);

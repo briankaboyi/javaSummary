@@ -1,6 +1,6 @@
 package overidding;
 // Method overriding is a concept in object-oriented programming (OOP) where a subclass provides a specific implementation for a method that is already defined in its superclass. 
-public class main {
+class Main {
     public static void main(String[] args){
         Child childObj = new Child(); 
 

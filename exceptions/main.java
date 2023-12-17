@@ -1,6 +1,6 @@
 package exceptions;
 
-public class main {
+class Main {
 
   public static void main(String[] args) {
     // exceptions means errors encountered during execution of java code

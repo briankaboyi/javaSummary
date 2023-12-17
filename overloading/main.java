@@ -1,6 +1,6 @@
 package overloading;
 
-public class main {
+class Main {
     //With method overloading, multiple methods can have the same name with different parameters:
 //    Instead of defining two methods that should do the same thing, it is better to overload one.
 

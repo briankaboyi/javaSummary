@@ -83,5 +83,8 @@ class Createfile {
     }else{
         System.out.println("failed mission");
     }
+    // File deleteF = new File("/home/briankaboyi/Code/java/myFile.txt");
+    // deleteF.delete(); deleted a previously created file
+    
   }
 }
