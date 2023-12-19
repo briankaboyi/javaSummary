@@ -24,7 +24,7 @@ public class Main {
       .stream()
       .sorted(Comparator.comparing(person -> person.name))
       .collect(Collectors.toList());
-    // sortedList.forEach(p -> System.out.println(p.name));
+    sortedList.forEach(p -> System.out.println(p.name));
     //filter and sort
     List<Person> hundredSortedClub = billionares
       .stream()
