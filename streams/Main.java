@@ -1,6 +1,7 @@
 package streams;
 
 import java.util.*;
+import java.util.stream.Collector;
 import java.util.stream.Collectors;
 
 public class Main {
@@ -24,6 +25,10 @@ public class Main {
       .stream()
       .sorted(Comparator.comparing(person -> person.name))
       .collect(Collectors.toList());
+    
+      List<Person> testList = hundredClub.stream().sorted(Comparator.comparing(person -> person.name)).collect(Collectors.toList());
+      System.out.println(testList+"ddddddddddddddddddddddddddddd4");
+
     // sortedList.forEach(p -> System.out.println(p.name));
     //filter and sort
     List<Person> hundredSortedClub = billionares
@@ -31,6 +36,8 @@ public class Main {
       .filter(p -> p.billions >= 100)
       .sorted(Comparator.comparing(p -> p.name))
       .collect(Collectors.toList()); 
+
+
 
       hundredSortedClub.forEach(p->System.out.println(p.name
       ));
