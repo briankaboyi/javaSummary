@@ -22,17 +22,29 @@ package inheritance;
 // }
 
 class Parent{
-    protected String surname = "kaboyi";
+     String surname = "kaboyi";
     void work(){
         System.out.println("HUSTLE , WORK ,GRIND");
+    }
+    Parent(){
+        System.out.println("this is the parent class");
     }
 }
 
 class Child extends Parent{
     private String myName = "Brian";
+    String surname = "mkaboyi";
+    Child(){
+        super();
+        System.out.println("this is the child class");
+    }
+    void showNames(){
+        System.out.println(this.surname +" "+ super.surname);
+    }
      public static void main (String[] args){
         Child me = new Child();
         me.work();
-        System.out.println(me.myName  + " " + me.surname);
+        me.showNames();
+        
      }
 }
